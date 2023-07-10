@@ -14,6 +14,10 @@
     "Enum:StockState:1": "جاهز للبيع",
     "Enum:StockState:2": "غير متاح",
     "Enum:StockState:3": "توقف البيع",
-    "CreationTime": "تاريخ الانشاء"
+    "CreationTime": "تاريخ الانشاء",
+    "NewProduct": "منتج جديد",
+    "Category": "التصنيف",
+    "IsFreeCargo": "شحن مجاني",
+    "ReleaseDate": "تاريخ الاصدار"
   }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ProductManagement.Categories;
 using ProductManagement.Products;
 
 namespace ProductManagement;
@@ -12,5 +13,7 @@ public class ProductManagementApplicationAutoMapperProfile : Profile
          * into multiple profile classes for a better organization. */
 
         CreateMap<Product, ProductDto>();
+        CreateMap<CreateUpdateProductDto, Product>();
+        CreateMap<Category, CategoryLookupDto>();
     }
 }
