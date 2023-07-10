@@ -18,6 +18,8 @@
     "NewProduct": "منتج جديد",
     "Category": "التصنيف",
     "IsFreeCargo": "شحن مجاني",
-    "ReleaseDate": "تاريخ الاصدار"
+    "ReleaseDate": "تاريخ الاصدار",
+    "Actions": "إجراءات",
+    "Edit": "تعديل"
   }
 }

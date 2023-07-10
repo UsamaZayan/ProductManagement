@@ -34,18 +34,36 @@
                     title: l('CreationTime'),
                     data: "creationTime",
                     dataFormat: 'date'
+                },
+                {
+                    title: l('Actions'),
+                    rowAction: {
+                        items:
+                            [
+                                {
+                                    text: l('Edit'),
+                                    action: function (data) {
+                                        editModal.open({ id: data.record.id });
+                                    }
+                                }
+                            ]
+                    }
                 }
 
             ]
         })
     );
-    var createModal = new abp.ModalManager(abp.appPath +
-        'Products/CreateProductModal');
+    var createModal = new abp.ModalManager(abp.appPath + 'Products/CreateProductModal');
     createModal.onResult(function () {
         dataTable.ajax.reload();
     });
     $('#NewProductButton').click(function (e) {
         e.preventDefault();
         createModal.open();
+    });
+
+    var editModal = new abp.ModalManager(abp.appPath + 'Products/EditProductModal');
+    editModal.onResult(function () {
+        dataTable.ajax.reload();
     });
 });
