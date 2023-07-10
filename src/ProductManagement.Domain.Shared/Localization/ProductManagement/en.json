@@ -20,6 +20,9 @@
     "IsFreeCargo": "Free Cargo",
     "ReleaseDate": "Release Date",
     "Actions": "Actions",
-    "Edit": "Edit"
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "ProductDeletionConfirmationMessage": "Are you sure to delete this book: {0}",
+    "SuccessfullyDeleted": "Successfully deleted!"
   }
 }

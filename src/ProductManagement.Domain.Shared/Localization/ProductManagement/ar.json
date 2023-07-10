@@ -20,6 +20,9 @@
     "IsFreeCargo": "شحن مجاني",
     "ReleaseDate": "تاريخ الاصدار",
     "Actions": "إجراءات",
-    "Edit": "تعديل"
+    "Edit": "تعديل",
+    "Delete": "حذف",
+    "ProductDeletionConfirmationMessage": "هل انت متأكد من حذف المنتج: {0}",
+    "SuccessfullyDeleted": "تم الحذف بنجاح!"
   }
 }
